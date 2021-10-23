@@ -1,0 +1,8 @@
+addi $t1, $zero, 3
+addi $t2, $zero, 7
+add $t0, $t1, $t2
+addi $sp, $sp, -12
+sw $t1, 8($sp)
+sw $t0, 4($sp)
+sw $t2, 0($sp)
+addi $sp, $sp, 12
